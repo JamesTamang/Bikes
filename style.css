@@ -1,7 +1,7 @@
 body{
     background-color:#e8ddcfa1;
     font-family:serif;
-
+    margin:0 5%;
 }
 * {
     box-sizing: border-box;
@@ -19,7 +19,7 @@ ul{
 main{
     display: grid;
     grid-template-columns: repeat(auto-fill , minmax(200px , 1fr));
-    grid-gap: 2rem;
+    grid-gap: 2.5rem;
   padding: 0 5%;
     color: grey;
 
@@ -27,7 +27,7 @@ main{
 main > article{
 
        background-color: white;
-    margin-bottom: 5vw;
+    margin-bottom: 6vw;
 
 }
 img{
@@ -68,4 +68,7 @@ button{
 a{
     text-decoration: none;
     color: darkred;
+}
+article:hover{
+    transform: scale(1.1);
 }
