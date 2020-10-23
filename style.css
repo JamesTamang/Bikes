@@ -37,7 +37,7 @@ img{
     border: 1.5px solid lightgrey;
 margin: 10px;
     font-family: monospace;
-    text-decoration: bold;
+
     color: grey;
 }
 h4{
@@ -59,7 +59,7 @@ button{
 }
 .tex>p{
     letter-spacing: 2px;
-    color: ;
+
 }
 a{
     text-decoration: none;
