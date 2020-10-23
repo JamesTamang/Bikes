@@ -56,6 +56,10 @@ button{
     color: darkred;
     padding: 3px;
     margin: 5px;
+    border:1px solid darkred;
+}
+.des>button{
+   margin-left: 30%;
 }
 .tex>p{
     letter-spacing: 2px;
