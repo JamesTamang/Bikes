@@ -19,6 +19,7 @@ function showBike(singleBike) {
   copy.querySelector(".instock").textContent = ('Instock:- '+singleBike.instock);
     copy.querySelector("img").src = img_url;
 
+
     const mainEl = document.querySelector("main");
     mainEl.appendChild(copy);
 }
